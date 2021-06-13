@@ -1,0 +1,16 @@
+// Variables
+$website-width: 1280px;
+$main-color: #fba110;
+$light-color: #b6a19e;
+$dark-color: #6c6488;
+$medium-color: #6bbaa7;
+$bg-image: url("/dist/img/background.jpg");
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
