@@ -308,7 +308,7 @@ img {
         "name email"
         "subject phone"
         "message message";
-      grid-gap: 1.2rem;
+      grid-gap: 1.3rem;
       margin-bottom: 1.2rem;
 
       .name-input {
@@ -381,3 +381,5 @@ img {
     }
   }
 }
+// Import Media queries
+@import "media";
